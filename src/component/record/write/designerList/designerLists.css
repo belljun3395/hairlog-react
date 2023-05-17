@@ -1,0 +1,10 @@
+.designerListSelect {
+    width: 580px;
+    height: 100px;
+    margin-left: 90px;
+    border: none;
+    appearance: none;
+    font-size: 40px;
+    font-family: SeoulNamsanCed_Medium;
+    padding: .0em .5em;
+}
