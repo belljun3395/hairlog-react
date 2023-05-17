@@ -1,5 +1,5 @@
 import "./profile.css";
-import { GET_MEMBERS_URL } from "../../util/GetURLProps";
+import { GET_MEMBERS_URL } from "../../utils/GetURLProps";
 import React from "react";
 import { UseGetFetch } from "../../hook/useFetch";
 import { extractData } from "../../utils/ExtractData";

@@ -1,9 +1,9 @@
 /* eslint-disable */
 import "./signUpForm.css";
-import person_img from "../../../public/asset/imgs/person.png"
-import email_img from "../../../public/asset/imgs/email.png"
-import lock_img from "../../../public/asset/imgs/lock.png"
-import heart_img from "../../../public/asset/imgs/heart.png"
+import person_img from "../../asset/imgs/person.png"
+import email_img from "../../asset/imgs/email.png"
+import lock_img from "../../asset/imgs/lock.png"
+import heart_img from "../../asset/imgs/heart.png"
 import React from "react";
 import { useForm } from "react-hook-form";
 import InputWithLogo from "../common/input/InputWithLogo";

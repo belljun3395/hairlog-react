@@ -1,11 +1,11 @@
 /* eslint-disable */
 import "./loginForm.css";
-import person_img from "../../../public/asset/imgs/person.png";
-import lock_img from "../../../public/asset/imgs/lock.png";
+import person_img from "../../asset/imgs/person.png";
+import lock_img from "../../asset/imgs/lock.png";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import InputWithLogo from "../common/input/InputWithLogo";
-import { POST_LOGIN_URL } from "../../util/GetURLProps";
+import { POST_LOGIN_URL } from "../../utils/GetURLProps";
 import { getLogInFetchProps } from "../../utils/GetFetchProps";
 import { extractAccessTokenFromData } from "../../utils/ExtractData";
 
