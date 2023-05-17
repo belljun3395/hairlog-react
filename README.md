@@ -3,6 +3,31 @@
 Hairlog-React는 [Econovation](https://econovation.kr/about)에서 2022년 1학기에 진행한 [기존 프로젝트](https://github.com/belljun3395/Hairlog)를 React 기반으로 전환한 프로젝트 입니다.
 
 <br/>
+
+### 프로젝트를 시작하는 방법
+
+<br/>
+
+```
+<!-- 프로젝트를 다운 받는다. -->
+
+git clone https://github.com/belljun3395/hairlog-react.git
+
+<!-- 프로젝트 시작 준비를 한다. -->
+<!-- 1. 도커가 있다면 -->
+
+docker-compose build
+
+docker-compose up
+
+<!-- 2. 도커가 없다면 -->
+
+npm install
+
+npm start
+```
+
+<br/>
 <br/>
 
 <img width="200" alt="Hairlog_로고" src="https://github.com/belljun3395/hairlog-react/assets/102807742/0e9f2420-6ed1-42ed-b082-7c573eb568c9">
