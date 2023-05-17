@@ -1,0 +1,95 @@
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 22rem;
+}
+
+/* navbar 요소 정렬 */
+.plusBtnShadow, .plusBtn, .designerBtn, .mypageBtn, .navDock {
+  position: absolute;
+}
+
+.plusBtnShadow {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin-left: 389px;
+  border-radius: 50%;
+  box-shadow: 0px -10px 10px 1px #c7c7c7;
+  z-index: 2;
+  position: fixed;
+}
+
+.plusBtn img {
+  width: 70px;
+  height: 70px;
+  margin-top: 40px;
+  margin-left: 40px;
+  position: fixed;
+
+}
+
+.plusBtn {
+  font-size: 30px;
+
+  width: 150px;
+  height: 150px;
+  background-color: #000000;
+  margin-top: 25px;
+  margin-left: 414px;
+  border-radius: 50%;
+  z-index: 2;
+  position: fixed;
+}
+
+.designerBtn, .mypageBtn {
+  text-align: center;
+}
+
+.designerBtn img, .mypageBtn img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 0px;
+}
+
+.designerBtn {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-top: 100px;
+  margin-left: 100px;
+  z-index: 2;
+  position: fixed;
+}
+
+.mypageBtn {
+  width: 200px;
+  height: 200px;
+  margin-left: 678px;
+  margin-top: 100px;
+  z-index: 2;
+  position: fixed;
+}
+
+.navbarPropValue {
+  margin-top: 0px;
+  font-size: 33px;
+  font-family: NotoSansKR_Medium;
+  color: #737373;
+  
+}
+
+.navDock {
+  width: 978px;
+  height: 350px;
+  margin-top: 70px;
+  border-radius: 50px;
+  border-bottom: none;
+  box-shadow: 10px 10px 10px 15px #c7c7c7;
+  position: fixed;
+}
+
+
+
