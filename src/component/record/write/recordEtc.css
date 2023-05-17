@@ -1,0 +1,19 @@
+.recordWriteEtc p {
+    font-size: 45px;
+    font-family: SeoulNamsanCed_Bold;
+    margin-left: 90px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.recordWriteEtc textarea {
+    font-size: 30px;
+    font-family: SeoulNamsanCed_Medium;
+    margin-left: 90px;
+    margin-top: 30px;
+    border: 1px solid #737373;
+    padding: 30px;
+    border-radius: 20px;
+    height: 800px;
+  }
+  
