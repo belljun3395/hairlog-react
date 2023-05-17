@@ -1,0 +1,38 @@
+.designerList h1 {
+    font-size: 50px;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.designersListDesigner {
+    float: left;
+    width: 700px;
+    height: 150px;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-family: SeoulNamsanCed_Medium;
+    border: 1px solid #9C9C9C;
+    color: #9C9C9C;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 40px;
+    margin-bottom: 50px;
+    margin-left: 90px;
+}
+
+.designersListDesignerName {
+    font-size: 50px;
+    width: 250px;
+    margin-left: 30px;
+    padding-bottom: 50px;
+    float: left;
+}
+
+.designersListDesignerSalon {
+    font-size: 50px;
+    width: 250px;
+    margin-left: 30px;
+    padding-bottom: 50px;
+    float: left;
+}
