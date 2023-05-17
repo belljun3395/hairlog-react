@@ -2,11 +2,11 @@ import "./content.css";
 import React, { useState } from "react";
 import Filters from "../home/filters/Filters";
 import { UseGetFetch } from "../../hook/useFetch";
-import GetCookie from "../../util/GetCookie";
-import { GetAuthHeader } from "../../util/GetFetchProps";
-import { ExtractData } from "../../util/ExtractData";
-import { GetRecordsPagesURL } from "../../util/GetURLProps";
 import RecordBoxes from "./RecordBoxes/RecordBoxes";
+import { getCookie } from "../../utils/GetCookie";
+import { getRecordsPagesURL } from "../../utils/GetURLProps";
+import { getAuthHeader } from "../../utils/GetFetchProps";
+import { extractData } from "../../utils/ExtractData";
 
 const [LATESTIDX, CUTIDX, PERMIDX, DYEINGIDX] = [0, 1, 2, 3];
 function chooseCategory(selectedIndex) {
@@ -25,14 +25,14 @@ function Content() {
   const category = chooseCategory(selectedIndex);
   const [page] = useState(0);
 
-  const authCookie = GetCookie("hairlog_accessToken");
+  const authCookie = getCookie("hairlog_accessToken");
   if (authCookie === undefined) {
     window.location.href = "/login";
   }
 
   const { loading, data, error } = UseGetFetch(
-    GetRecordsPagesURL(category, page),
-    GetAuthHeader(authCookie)
+    getRecordsPagesURL(category, page),
+    getAuthHeader(authCookie)
   );
 
   if (loading) return <h1> </h1>;
@@ -43,7 +43,7 @@ function Content() {
         <Filters setSelectedIndex={setSelectedIndex} />
       </div>
       <div className="homeRecordBoxes">
-        <RecordBoxes data={ExtractData(data).data} />
+        <RecordBoxes data={extractData(data).data} />
       </div>
     </div>
   );
