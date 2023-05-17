@@ -1,0 +1,11 @@
+.recordReadBox {
+    margin-left: 90px;
+    margin-top : 50px
+}
+
+.recordReadBox p {
+    height: 50px;
+    font-size: 40px;
+    color: #000000;
+    margin-top: 0px;
+}
