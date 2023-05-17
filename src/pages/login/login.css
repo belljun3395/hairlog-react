@@ -1,0 +1,21 @@
+/* login */
+.loginHead {
+  width: 700px;
+  height: 100px;
+  margin-left: 132px;
+  margin-top: 700px;
+  margin-bottom: 100px;
+  font-size: 80px;
+  text-align: center;
+}
+
+/* 회원가입 링크 */
+.loginToSignup {
+  width: 700px;
+  margin-left: 132px;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: none;
+  color: #000100;
+  font-family: Montserrat_Bold;
+}
