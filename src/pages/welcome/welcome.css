@@ -1,0 +1,30 @@
+.welcomeMent {
+  font-family: SeoulNamsanCed_Medium;
+  width: 700px;
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+  margin-top: 70%;
+}
+
+.welcomeMent p {
+  font-size: 80px;
+  color: #8B8B8E;
+  margin-top: 0px;
+}
+
+.welcomeToMainBtn {
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+  margin-top: 70%;
+  border: none;
+  width: 700px;
+  height: 120px;
+  font-size: 45px;
+  font-family: Montserrat_ExtraBold;
+  border-radius: 30px;
+  background-color: #000000;
+  color: white;
+  margin-bottom: 40%;
+}
