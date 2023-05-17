@@ -1,0 +1,70 @@
+.recordWriteRecordDate p {
+    height: 45px;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 45px;
+    font-family: SeoulNamsanCed_Bold;
+}
+
+.recordWriteRecordDate input {
+    width: 750px;
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 40px;
+    border: 1px solid #9C9C9C;
+    color: #9C9C9C;
+}
+
+.recordWriteRecordDesigners {
+    height: 150px;
+}
+
+.recordWriteRecordDesignersHead  {
+    height: 45px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    font-size: 45px;
+    font-family: SeoulNamsanCed_Bold;
+}
+
+.recordWriteRecordDesignersList {
+    height: 100px;
+    width: 580px;
+    float: left;
+}
+
+.recordWriteRecordDesignersAdd {
+    width: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #9C9C9C;
+    color: white;
+    background-color: #CACACA;
+    font-size: 50px;
+    float: left;
+    border-radius: 50%;
+    padding: 3.6px 20px 10px 18px;
+}
+
+.recordWriteMainCost p {
+    height: 45px;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-family: SeoulNamsanCed_Bold;
+}
+
+.recordWriteMainCost input {
+    width: 750px;
+    margin-left: 90px;
+    color: #9C9C9C;
+    font-size: 40px;
+    font-family: SeoulNamsanCed_Medium;
+    border: 1px solid #9C9C9C;
+    padding: 25px;
+    border-radius: 30px;
+}
