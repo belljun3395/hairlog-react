@@ -1,0 +1,9 @@
+.recordReadDeletBtn {
+    float: right;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-right: 10%;  
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-family: SeoulNamsanCed_Medium;
+}
