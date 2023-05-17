@@ -1,0 +1,31 @@
+.recordWriteMainFromDyeingHurt ul, .recordWriteMainFromPermHurt ul{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.hurtList {
+    width: 200px;
+    border: 1px solid #9C9C9C;
+    float: left;
+    font-size: 40px;
+    color: #9C9C9C;
+    font-family: SeoulNamsanCed_Medium;
+    text-align: center;
+    padding: 20px 20px;
+    margin-right: 35px;
+    border-radius: 40px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.selected {
+    color: #9C9C9C;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+  }
+  
+.NotSelected {
+    color: #9C9C9C;
+    border: 1px solid #9C9C9C;
+    background-color: none;
+  }

@@ -1,0 +1,48 @@
+.recordWriteMainFromDyeing input {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 600px;
+  
+    color: #9C9C9C;
+    font-size: 40px;
+    font-family: SeoulNamsanCed_Medium;
+    border: 1px solid #9C9C9C;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.recordWriteMainFromDyeingColor p {
+    font-size: 45px;
+    font-family: SeoulNamsanCed_Bold;
+    margin-left: 90px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+.recordWriteMainFromDyeingDecolorization p {
+    font-size: 45px;
+    font-family: SeoulNamsanCed_Bold;
+    margin-left: 90px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+.recordWriteMainFromDyeingTime p {
+    font-size: 45px;
+    font-family: SeoulNamsanCed_Bold;
+    margin-left: 90px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+.recordWriteMainFromDyeingHurt p {
+    font-size: 45px;
+    font-family: SeoulNamsanCed_Bold;
+    margin-left: 90px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
