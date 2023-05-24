@@ -9,7 +9,7 @@ function RecordBtn({ RecordHash, setRecordHash = (f) => f }) {
 
   return RecordHash < LAST_PAGE ? (
     <button
-      className="recordWriteBtn"
+      className="recordWriteBtn" type="button"
       onClick={() => {
         setRecordHash(RecordHash + 1);
       }}
@@ -17,9 +17,11 @@ function RecordBtn({ RecordHash, setRecordHash = (f) => f }) {
       {getButtonValue(RecordHash)}
     </button>
   ) : (
-    <button className="recordWriteBtn" type="submit">
-      {getButtonValue(RecordHash)}
-    </button>
+    <div>
+      <button className="recordWriteBtn" type="submit">
+        {getButtonValue(RecordHash)}
+      </button>
+    </div>
   );
 }
 
