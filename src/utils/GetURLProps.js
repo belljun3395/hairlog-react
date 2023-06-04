@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080"
+const BASE_URL = "https://hairlog.jongjun.com"
 const PAGESIZE = 6;
 
 export const GET_DESIGNER_URL = BASE_URL+"/api/v1/designers";
@@ -27,4 +27,8 @@ export function getRecordWriteUrl(category) {
   } else if (category === "DYEING") {
     return BASE_URL+"/api/v1/records/dyeing";
   }
+}
+
+export function getRecordDeleteUrl(recordId) {
+  return BASE_URL + `/api/v1/records?rid=${recordId}`
 }

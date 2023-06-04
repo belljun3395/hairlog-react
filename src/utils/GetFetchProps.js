@@ -21,6 +21,7 @@ export function getSignUpFetchProps(data) {
       password: data.password,
       name: data.name,
       sex: data.sex,
+      cycle : 7
     }),
   };
 }
@@ -64,5 +65,12 @@ export function getRecordWriteFetchProps(
         categoryRecordBodyConverter(category, data, hurt)
       )
     ),
+  };
+}
+
+export function getRecordDeleteFetchProps(authCookie) {
+  return {
+    method: "DELETE",
+    headers: getAuthHeader(authCookie)
   };
 }

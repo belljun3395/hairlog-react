@@ -12,7 +12,6 @@ function recordWrite(authCookie, category, data, hurt, date) {
     getRecordWriteUrl(category),
     getRecordWriteFetchProps(authCookie, data, category, hurt, date)
   ).then(() => {
-    // todo 버튼 계속 눌러짐 수정
     window.location.href = "/";
   });
 }

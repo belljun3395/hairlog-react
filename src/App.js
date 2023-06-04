@@ -8,6 +8,7 @@ import RecordWrite from "./pages/record/write";
 import RecordRead from "./pages/record/read";
 import Designers from "./pages/designers";
 import MyPage from "./pages/myPage";
+import Health from "./pages/health";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/records" element={<RecordRead />} />
       <Route path="/designers" element={<Designers />} />
       <Route path="/mypage" element={<MyPage />} />
+      <Route path="/health" element= {<Health/>} />
     </Routes>
   );
 }

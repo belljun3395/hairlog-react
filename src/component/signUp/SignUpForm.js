@@ -8,11 +8,11 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import InputWithLogo from "../common/input/InputWithLogo";
 import SelectWithLogo from "../common/select/SelectWithLogo";
-import { POST_LOGIN_URL } from "../../utils/GetURLProps";
-import { getLogInFetchProps } from "../../utils/GetFetchProps";
+import { POST_SIGNUP_URL } from "../../utils/GetURLProps";
+import { getSignUpFetchProps } from "../../utils/GetFetchProps";
 
 function signUpMember(data) {
-  fetch(POST_LOGIN_URL, getLogInFetchProps(data))
+  fetch(POST_SIGNUP_URL, getSignUpFetchProps(data))
     .then((data) => data.json())
     .then((data) => {
       if (data.code != "success")
